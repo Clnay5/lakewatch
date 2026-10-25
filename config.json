@@ -1,0 +1,15 @@
+{
+  "catalog": "https://earth-search.aws.element84.com/v1",
+  "collection": "sentinel-2-l2a",
+  "crs": "EPSG:32650",
+  "resolution_m": 20,
+  "minimum_valid_fraction": 0.65,
+  "periods": {
+    "winter": "2021-01-01T00:00:00Z/2021-02-28T23:59:59Z",
+    "late_summer": "2021-08-01T00:00:00Z/2021-09-30T23:59:59Z"
+  },
+  "sites": [
+    {"id": "donghu", "name": "东湖研究窗口", "bbox": [114.34, 30.50, 114.44, 30.61]},
+    {"id": "tangxun", "name": "汤逊湖研究窗口", "bbox": [114.31, 30.36, 114.44, 30.47]}
+  ]
+}

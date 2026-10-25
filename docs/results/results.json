@@ -1,0 +1,486 @@
+{
+  "manifest": {
+    "generated_at": "2026-10-25T11:33:59.096827+00:00",
+    "config": {
+      "catalog": "https://earth-search.aws.element84.com/v1",
+      "collection": "sentinel-2-l2a",
+      "crs": "EPSG:32650",
+      "resolution_m": 20,
+      "minimum_valid_fraction": 0.65,
+      "periods": {
+        "winter": "2021-01-01T00:00:00Z/2021-02-28T23:59:59Z",
+        "late_summer": "2021-08-01T00:00:00Z/2021-09-30T23:59:59Z"
+      },
+      "sites": [
+        {
+          "id": "donghu",
+          "name": "\u4e1c\u6e56\u7814\u7a76\u7a97\u53e3",
+          "bbox": [
+            114.34,
+            30.5,
+            114.44,
+            30.61
+          ]
+        },
+        {
+          "id": "tangxun",
+          "name": "\u6c64\u900a\u6e56\u7814\u7a76\u7a97\u53e3",
+          "bbox": [
+            114.31,
+            30.36,
+            114.44,
+            30.47
+          ]
+        }
+      ]
+    },
+    "observations": [
+      {
+        "site": "donghu",
+        "period": "winter",
+        "item_id": "S2B_50RKU_20210218_0_L2A",
+        "cache_signature": "77311af498a311086f4f552d84e04043994ea5f8b11b522717b2c76e06294efe",
+        "datetime": "2021-02-18T03:09:32.111000Z",
+        "scene_cloud_percent": 0.813373,
+        "valid_fraction": 0.6862868896207871,
+        "query": "https://earth-search.aws.element84.com/v1/search?collections=sentinel-2-l2a&bbox=114.34%2C30.5%2C114.44%2C30.61&datetime=2021-01-01T00%3A00%3A00Z%2F2021-02-28T23%3A59%3A59Z&limit=100",
+        "assets": {
+          "green": {
+            "window": [
+              4470,
+              1060,
+              992,
+              1248
+            ],
+            "source_crs": "EPSG:32650",
+            "source_resolution": [
+              10.0,
+              10.0
+            ],
+            "scale": 0.0001,
+            "offset": 0,
+            "href": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/50/R/KU/2021/2/S2B_50RKU_20210218_0_L2A/B03.tif"
+          },
+          "swir16": {
+            "window": [
+              2234,
+              529,
+              498,
+              626
+            ],
+            "source_crs": "EPSG:32650",
+            "source_resolution": [
+              20.0,
+              20.0
+            ],
+            "scale": 0.0001,
+            "offset": 0,
+            "href": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/50/R/KU/2021/2/S2B_50RKU_20210218_0_L2A/B11.tif"
+          },
+          "scl": {
+            "window": [
+              2234,
+              529,
+              498,
+              626
+            ],
+            "source_crs": "EPSG:32650",
+            "source_resolution": [
+              20.0,
+              20.0
+            ],
+            "scale": null,
+            "offset": null,
+            "href": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/50/R/KU/2021/2/S2B_50RKU_20210218_0_L2A/SCL.tif"
+          }
+        },
+        "aligned_array_sha256": "94d7cf736d5a6441088ff7ff34c3b6a53a923a7ec961db58e8cb440e27520619",
+        "rejected_candidates": []
+      },
+      {
+        "site": "donghu",
+        "period": "late_summer",
+        "item_id": "S2A_50RKU_20210921_0_L2A",
+        "cache_signature": "8ee032a59ec3ce54557d0cd013415de3f505f9fc383de5ea3eca102a7ae85c97",
+        "datetime": "2021-09-21T03:09:37.196000Z",
+        "scene_cloud_percent": 0.75476,
+        "valid_fraction": 0.8907175495007615,
+        "query": "https://earth-search.aws.element84.com/v1/search?collections=sentinel-2-l2a&bbox=114.34%2C30.5%2C114.44%2C30.61&datetime=2021-08-01T00%3A00%3A00Z%2F2021-09-30T23%3A59%3A59Z&limit=100",
+        "assets": {
+          "green": {
+            "window": [
+              4470,
+              1060,
+              992,
+              1248
+            ],
+            "source_crs": "EPSG:32650",
+            "source_resolution": [
+              10.0,
+              10.0
+            ],
+            "scale": 0.0001,
+            "offset": 0,
+            "href": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/50/R/KU/2021/9/S2A_50RKU_20210921_0_L2A/B03.tif"
+          },
+          "swir16": {
+            "window": [
+              2234,
+              529,
+              498,
+              626
+            ],
+            "source_crs": "EPSG:32650",
+            "source_resolution": [
+              20.0,
+              20.0
+            ],
+            "scale": 0.0001,
+            "offset": 0,
+            "href": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/50/R/KU/2021/9/S2A_50RKU_20210921_0_L2A/B11.tif"
+          },
+          "scl": {
+            "window": [
+              2234,
+              529,
+              498,
+              626
+            ],
+            "source_crs": "EPSG:32650",
+            "source_resolution": [
+              20.0,
+              20.0
+            ],
+            "scale": null,
+            "offset": null,
+            "href": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/50/R/KU/2021/9/S2A_50RKU_20210921_0_L2A/SCL.tif"
+          }
+        },
+        "aligned_array_sha256": "8b193878f55b03b2c6f3b3a9350e1d697d5bfbeb2a7571bf599d40195985ddf6",
+        "rejected_candidates": []
+      },
+      {
+        "site": "tangxun",
+        "period": "winter",
+        "item_id": "S2B_50RKU_20210218_0_L2A",
+        "cache_signature": "e55e5c1d1099e9938ad777c86157df6960d68d13959a5bdf833732b02107d490",
+        "datetime": "2021-02-18T03:09:32.111000Z",
+        "scene_cloud_percent": 0.813373,
+        "valid_fraction": 0.6830321485623003,
+        "query": "https://earth-search.aws.element84.com/v1/search?collections=sentinel-2-l2a&bbox=114.31%2C30.36%2C114.44%2C30.47&datetime=2021-01-01T00%3A00%3A00Z%2F2021-02-28T23%3A59%3A59Z&limit=100",
+        "assets": {
+          "green": {
+            "window": [
+              4144,
+              2604,
+              1284,
+              1256
+            ],
+            "source_crs": "EPSG:32650",
+            "source_resolution": [
+              10.0,
+              10.0
+            ],
+            "scale": 0.0001,
+            "offset": 0,
+            "href": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/50/R/KU/2021/2/S2B_50RKU_20210218_0_L2A/B03.tif"
+          },
+          "swir16": {
+            "window": [
+              2071,
+              1301,
+              644,
+              630
+            ],
+            "source_crs": "EPSG:32650",
+            "source_resolution": [
+              20.0,
+              20.0
+            ],
+            "scale": 0.0001,
+            "offset": 0,
+            "href": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/50/R/KU/2021/2/S2B_50RKU_20210218_0_L2A/B11.tif"
+          },
+          "scl": {
+            "window": [
+              2071,
+              1301,
+              644,
+              630
+            ],
+            "source_crs": "EPSG:32650",
+            "source_resolution": [
+              20.0,
+              20.0
+            ],
+            "scale": null,
+            "offset": null,
+            "href": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/50/R/KU/2021/2/S2B_50RKU_20210218_0_L2A/SCL.tif"
+          }
+        },
+        "aligned_array_sha256": "e0effb7831caaece5bd85b865cb8b8060c51e7a285b30d5daaca6a1be6af853a",
+        "rejected_candidates": []
+      },
+      {
+        "site": "tangxun",
+        "period": "late_summer",
+        "item_id": "S2A_50RKU_20210921_0_L2A",
+        "cache_signature": "7aa0849d75a87da6842917004e0d1ff70ed28a5d4388344e7d9a62b93a740452",
+        "datetime": "2021-09-21T03:09:37.196000Z",
+        "scene_cloud_percent": 0.75476,
+        "valid_fraction": 0.8584964057507988,
+        "query": "https://earth-search.aws.element84.com/v1/search?collections=sentinel-2-l2a&bbox=114.31%2C30.36%2C114.44%2C30.47&datetime=2021-08-01T00%3A00%3A00Z%2F2021-09-30T23%3A59%3A59Z&limit=100",
+        "assets": {
+          "green": {
+            "window": [
+              4144,
+              2604,
+              1284,
+              1256
+            ],
+            "source_crs": "EPSG:32650",
+            "source_resolution": [
+              10.0,
+              10.0
+            ],
+            "scale": 0.0001,
+            "offset": 0,
+            "href": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/50/R/KU/2021/9/S2A_50RKU_20210921_0_L2A/B03.tif"
+          },
+          "swir16": {
+            "window": [
+              2071,
+              1301,
+              644,
+              630
+            ],
+            "source_crs": "EPSG:32650",
+            "source_resolution": [
+              20.0,
+              20.0
+            ],
+            "scale": 0.0001,
+            "offset": 0,
+            "href": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/50/R/KU/2021/9/S2A_50RKU_20210921_0_L2A/B11.tif"
+          },
+          "scl": {
+            "window": [
+              2071,
+              1301,
+              644,
+              630
+            ],
+            "source_crs": "EPSG:32650",
+            "source_resolution": [
+              20.0,
+              20.0
+            ],
+            "scale": null,
+            "offset": null,
+            "href": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/50/R/KU/2021/9/S2A_50RKU_20210921_0_L2A/SCL.tif"
+          }
+        },
+        "aligned_array_sha256": "36963e925b16962a47af0f987ce40b76233abb9659d7729ccee2c936c02a9f0f",
+        "rejected_candidates": []
+      }
+    ],
+    "environment": {
+      "python": "3.12.14",
+      "numpy": "2.5.4",
+      "rasterio": "1.5.2",
+      "gdal": "3.12.2"
+    },
+    "method": "MNDWI > 0, SCL in {4,5,6}; intersection-of-valid temporal support; Otsu diagnostic only",
+    "limitations": [
+      "Study rectangles include other water bodies; not cadastral lake boundaries.",
+      "No independent human labels: no accuracy, IoU or causal hydrology claim.",
+      "Threshold sweep is sensitivity, not a confidence interval.",
+      "Scene cloud metadata ranks candidates; actual local SCL validity gates acceptance.",
+      "20 m UTM grid area is projected area; shoreline mixed pixels and SCL errors remain."
+    ]
+  },
+  "sites": [
+    {
+      "id": "donghu",
+      "name": "\u4e1c\u6e56\u7814\u7a76\u7a97\u53e3",
+      "bbox": [
+        114.34,
+        30.5,
+        114.44,
+        30.61
+      ],
+      "shape": [
+        622,
+        494
+      ],
+      "transform": [
+        20.0,
+        0.0,
+        244700.0,
+        0.0,
+        -20.0,
+        3389400.0
+      ],
+      "fixed_threshold": 0,
+      "change_on_common_support": {
+        "common_valid_fraction": 0.671013577723681,
+        "before_km2": 31.874,
+        "after_km2": 30.2256,
+        "gain_km2": 0.2584,
+        "loss_km2": 1.9068,
+        "net_km2": -1.6484
+      },
+      "sensitivity": [
+        {
+          "threshold": -0.1,
+          "common_valid_fraction": 0.671013577723681,
+          "before_km2": 35.3836,
+          "after_km2": 31.9296,
+          "gain_km2": 0.6324,
+          "loss_km2": 4.0864,
+          "net_km2": -3.454
+        },
+        {
+          "threshold": 0,
+          "common_valid_fraction": 0.671013577723681,
+          "before_km2": 31.874,
+          "after_km2": 30.2256,
+          "gain_km2": 0.2584,
+          "loss_km2": 1.9068,
+          "net_km2": -1.6484
+        },
+        {
+          "threshold": 0.1,
+          "common_valid_fraction": 0.671013577723681,
+          "before_km2": 31.152,
+          "after_km2": 29.6716,
+          "gain_km2": 0.2084,
+          "loss_km2": 1.6888,
+          "net_km2": -1.4804
+        },
+        {
+          "threshold": 0.2,
+          "common_valid_fraction": 0.671013577723681,
+          "before_km2": 30.7208,
+          "after_km2": 29.2732,
+          "gain_km2": 0.19,
+          "loss_km2": 1.6376,
+          "net_km2": -1.4476
+        }
+      ],
+      "otsu_thresholds": {
+        "winter": 0.234375,
+        "late_summer": 0.1953125
+      },
+      "polygon_area_checks": [
+        {
+          "class": "gain",
+          "raster_area_m2": 258400.0,
+          "polygon_area_m2": 258400.0,
+          "difference_m2": 0.0
+        },
+        {
+          "class": "loss",
+          "raster_area_m2": 1906800.0,
+          "polygon_area_m2": 1906800.0,
+          "difference_m2": 0.0
+        }
+      ],
+      "individual_observed_water_km2": {
+        "winter": 32.266,
+        "late_summer": 30.3332
+      }
+    },
+    {
+      "id": "tangxun",
+      "name": "\u6c64\u900a\u6e56\u7814\u7a76\u7a97\u53e3",
+      "bbox": [
+        114.31,
+        30.36,
+        114.44,
+        30.47
+      ],
+      "shape": [
+        626,
+        640
+      ],
+      "transform": [
+        20.0,
+        0.0,
+        241440.0,
+        0.0,
+        -20.0,
+        3373960.0
+      ],
+      "fixed_threshold": 0,
+      "change_on_common_support": {
+        "common_valid_fraction": 0.6594523761980831,
+        "before_km2": 44.2828,
+        "after_km2": 43.7368,
+        "gain_km2": 0.602,
+        "loss_km2": 1.148,
+        "net_km2": -0.546
+      },
+      "sensitivity": [
+        {
+          "threshold": -0.1,
+          "common_valid_fraction": 0.6594523761980831,
+          "before_km2": 46.3548,
+          "after_km2": 44.7872,
+          "gain_km2": 0.6988,
+          "loss_km2": 2.2664,
+          "net_km2": -1.5676
+        },
+        {
+          "threshold": 0,
+          "common_valid_fraction": 0.6594523761980831,
+          "before_km2": 44.2828,
+          "after_km2": 43.7368,
+          "gain_km2": 0.602,
+          "loss_km2": 1.148,
+          "net_km2": -0.546
+        },
+        {
+          "threshold": 0.1,
+          "common_valid_fraction": 0.6594523761980831,
+          "before_km2": 43.6852,
+          "after_km2": 43.2612,
+          "gain_km2": 0.606,
+          "loss_km2": 1.03,
+          "net_km2": -0.424
+        },
+        {
+          "threshold": 0.2,
+          "common_valid_fraction": 0.6594523761980831,
+          "before_km2": 43.258,
+          "after_km2": 42.888,
+          "gain_km2": 0.6468,
+          "loss_km2": 1.0168,
+          "net_km2": -0.37
+        }
+      ],
+      "otsu_thresholds": {
+        "winter": 0.203125,
+        "late_summer": 0.1796875
+      },
+      "polygon_area_checks": [
+        {
+          "class": "gain",
+          "raster_area_m2": 602000.0,
+          "polygon_area_m2": 602000.0,
+          "difference_m2": 0.0
+        },
+        {
+          "class": "loss",
+          "raster_area_m2": 1148000.0,
+          "polygon_area_m2": 1148000.0,
+          "difference_m2": 0.0
+        }
+      ],
+      "individual_observed_water_km2": {
+        "winter": 45.138,
+        "late_summer": 44.7272
+      }
+    }
+  ]
+}

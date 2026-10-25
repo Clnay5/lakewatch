@@ -1,0 +1,38 @@
+{
+  "status": "passed",
+  "observations": [
+    {
+      "item": "S2B_50RKU_20210218_0_L2A",
+      "site": "donghu",
+      "sha256_matches": true,
+      "valid_fraction": 0.6862868896207871
+    },
+    {
+      "item": "S2A_50RKU_20210921_0_L2A",
+      "site": "donghu",
+      "sha256_matches": true,
+      "valid_fraction": 0.8907175495007615
+    },
+    {
+      "item": "S2B_50RKU_20210218_0_L2A",
+      "site": "tangxun",
+      "sha256_matches": true,
+      "valid_fraction": 0.6830321485623003
+    },
+    {
+      "item": "S2A_50RKU_20210921_0_L2A",
+      "site": "tangxun",
+      "sha256_matches": true,
+      "valid_fraction": 0.8584964057507988
+    }
+  ],
+  "sites": 2,
+  "checks": [
+    "aligned-array SHA-256",
+    "local valid coverage",
+    "net=gain-loss",
+    "net=after-before",
+    "pixel/polygon metric area"
+  ],
+  "scope": "Data and accounting integrity only; no independent water classification truth"
+}
